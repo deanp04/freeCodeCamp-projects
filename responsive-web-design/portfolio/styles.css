@@ -45,18 +45,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* width: 80vw;
+    margin: 0 auto; */
+}
 
 .navbar {
     display: flex;
-    height: 10vh;
+    height: 7vh;
     width: 100%;
     background: linear-gradient(90deg, #77bfa3, #edeec9);
+    position: fixed;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 .nav-list {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    margin-right: 7vw;
+}
+
+.nav-list li {
+    margin: auto 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2f3e46;
+    font-weight: bold;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
 
