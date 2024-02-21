@@ -143,3 +143,20 @@ body {
     margin-top: 5px; /* Adjust as needed */
     font-size: 14px; /* Adjust as needed */
   }
+
+  @media (max-width: 30.625em) {
+    .projects {
+      padding: 6rem 1rem;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
