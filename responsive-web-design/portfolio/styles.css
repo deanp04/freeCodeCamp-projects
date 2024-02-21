@@ -126,8 +126,20 @@ body {
 }
 
 .project-tile {
-    max-height: 300px;
-    max-width: 40%;
-    margin: 20px 20px;
-    
-}
+    display: inline-block;
+    min-width: 30%;
+    max-width: 400px; /* Adjust this value as needed */
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .project-tile img {
+    max-width: 100%; /* Ensures the image fits within its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+  
+  .project-tile p {
+    margin-top: 5px; /* Adjust as needed */
+    font-size: 14px; /* Adjust as needed */
+  }
